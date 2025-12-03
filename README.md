@@ -60,17 +60,17 @@ Tax Filing Copilot is a **RAG (Retrieval-Augmented Generation) system**:
 
 
 
-## 3. Business Impact (Simulated / Internal Evaluation)
+## 3. Business Impact
 
 I evaluated it using a set of **50 common IRS questions** derived from publications and FAQs.
 
 Key results:
 
-- ✅ **Top-3 Retrieval Accuracy:**  
+-  **Top-3 Retrieval Accuracy:**  
   In offline tests, the correct paragraph appeared in the top-3 retrieved chunks for **92%** of questions; top-1 contained it **78%** of the time.
-- ⚡ **Latency:**  
+-  **Latency:**  
   End-to-end response time on the Hugging Face CPU Space is ~**6–9 seconds** per query after warm-up.
-- ⏱️ **Estimated user time savings:**  
+-  **Estimated user time savings:**  
   Manually finding the same answers in IRS PDFs takes ~**10–15 minutes** of scrolling per question.  
   The copilot surfaces a grounded answer and citations in under **10 seconds**, i.e. an **~95% reduction in lookup time**.
 
